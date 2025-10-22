@@ -5,7 +5,7 @@
 ## Quick Start
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/GITHUB_USERNAME/n5-core/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/vrijenattawar/n5-core/main/install.sh | bash
 ```
 
 ## Features
