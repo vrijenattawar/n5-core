@@ -1,21 +1,54 @@
 # Changelog
 
-All notable changes to n5-core will be documented in this file.
+All notable changes to N5 Core will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-### Added
-- Initial repository structure
-- Installation scripts
-- Version management system
-- User documentation
-
 ## [0.1.0] - 2025-10-22
 
 ### Added
-- First release
-- Howie verbal signal detector
-- Basic N5 architecture
+- Initial release of N5 Core for Zo Computer
+- Core scripts:
+  - `session_state_manager.py` - Session state tracking and management
+  - `n5_safety.py` - Safety checks and validation
+  - `n5_schema_validation.py` - Schema validation system
+- JSON schemas:
+  - `commands.schema.json` - Command structure validation
+  - `lists.item.schema.json` - List item validation
+  - `lists.registry.schema.json` - List registry validation
+  - `index.schema.json` - Index structure validation
+- Configuration system:
+  - `commands.jsonl` - Command registry (124 commands)
+  - `settings.example.json` - Configuration template
+- Documentation:
+  - Installation guide
+  - Architecture overview
+  - User guide (coming soon)
+  - Command reference (coming soon)
+  - Schema documentation (coming soon)
+- Installation script with backup support
+- GitHub Actions workflow for testing
+- Issue templates for bug reports and feature requests
+- MIT License
+
+### Philosophy
+- Human-readable first (P1)
+- Single source of truth (P2)
+- Safety by default (P5, P7)
+- Modular design (P20)
+
+## [Unreleased]
+
+### Planned
+- User guide with examples
+- Command reference documentation
+- Schema documentation with examples
+- Additional core scripts for hiring workflows
+- Example configurations for common use cases
+- Integration tests
+- Performance benchmarks
+
+---
+
+[0.1.0]: https://github.com/vrijenattawar/n5-core/releases/tag/v0.1.0
