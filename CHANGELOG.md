@@ -5,6 +5,18 @@ All notable changes to N5 Core will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2025-10-22
+
+### Added
+- Helper scripts for version and release management:
+  - `n5-release.sh` - Create new releases with automated GitHub integration
+  - `n5-update.sh` - Update N5 Core to latest version with backup
+  - `n5-status.sh` - Check installation health and version status
+- All management scripts include color-coded output and comprehensive error handling
+
+### Changed
+- Updated VERSION to 0.2.0
+
 ## [0.1.0] - 2025-10-22
 
 ### Added
