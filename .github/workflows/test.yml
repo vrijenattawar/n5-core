@@ -1,0 +1,24 @@
+name: Test Installation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Test installation script
+        run: |
+          chmod +x install.sh
+          # Dry run test
+          bash -n install.sh
+          
+      - name: Test version manager
+        run: |
+          chmod +x scripts/n5-version-manager.sh
+          bash -n scripts/n5-version-manager.sh

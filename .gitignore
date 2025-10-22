@@ -1,0 +1,20 @@
+# User configs (never commit)
+config/*.local.*
+config/*.json
+config/*.yaml
+!config/*.example.*
+!config/*.template.*
+
+# Logs and runtime
+logs/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+
+# Version tracking (user-specific)
+.version_history
+
+# IDE
+.vscode/
+.idea/

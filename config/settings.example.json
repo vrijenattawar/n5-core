@@ -1,0 +1,15 @@
+{
+  "howie": {
+    "enabled": true,
+    "auto_tag": true,
+    "confidence_threshold": 0.7
+  },
+  "commands": {
+    "auto_load": true,
+    "trigger_prefix": "/n5"
+  },
+  "updates": {
+    "auto_check": false,
+    "channel": "stable"
+  }
+}
